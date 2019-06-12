@@ -1,0 +1,60 @@
+body {box-sizing: border-box;
+:margin = 0 px;
+:padding = 0 px;}
+
+
+.space {position: relative;
+
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+}
+
+div {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    width: 250px;
+    height: 250px;
+    border: groove 3px yellow;
+    padding:15px 10px;
+    background-image: url("https://wdb.space/media/2015-11-18/fqgTARQMB5.png");
+    transition: all 1s 0s ease;
+    }
+
+.spacebox1 {z-index: 4;
+}
+
+.spacebox1:hover {
+transform: scale(0.5)
+}
+
+.spacebox2{
+    z-index: 3;
+    transform: rotate(40deg);
+}
+
+.spacebox2:hover {
+    transform: rotate(50deg);
+}
+
+.spacebox3 {
+    z-index: 2;
+    transform: rotate(25deg);
+}
+
+.spacebox3:hover {
+    transform: rotate(35deg);
+}
+
+.spacebox4{z-index: 1;
+    transform:rotate(10deg);
+}
+
+.spacebox4:hover{
+    transform: rotate(20deg);
+}
+
+.spacebox2,.spacebox3,.spacebox4 {
+    opacity: 0.7;
+}
